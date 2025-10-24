@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🦷 Dentwise — AI Dental Assistant (Next.js + TypeScript + Postgres)
 
-## Getting Started
+Dentwise is a modern, AI-powered dental assistant web application built using Next.js, TypeScript, and PostgreSQL.
+It provides a seamless digital experience for both patients and dental professionals — from booking appointments to managing schedules, payments, and AI-powered voice interactions.
 
-First, run the development server:
+✨ Key Features
+🏠 Modern Landing Page
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visually appealing gradient design and responsive layout
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built with Tailwind CSS and Shadcn/UI components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔐 Authentication (Clerk Integration)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Secure login via Google, GitHub, or Email/Password
 
-## Learn More
+Email verification with 6-digit verification code
 
-To learn more about Next.js, take a look at the following resources:
+📅 Appointment Booking System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3-step flow:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Select Dentist
 
-## Deploy on Vercel
+Choose Service & Time
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Confirm Appointment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fully responsive booking form with real-time validation
+
+Automated email notifications using Resend
+
+🗣️ AI Voice Agent (Vapi Integration)
+
+AI-powered assistant for scheduling and answering queries
+
+Available in Pro plans for advanced automation
+
+📊 Admin Dashboard
+
+Manage appointments, dentists, patients, and schedules
+
+Role-based access for administrators
+
+Analytics and status tracking
+
+💳 Subscription System
+
+Integrated with Clerk for user billing
+
+Three plans: Free, Pro, and Premium
+
+Smart upgrade logic (users pay only the difference)
+
+Auto-generated invoices via email
+
+🧾 Backend & Database
+
+PostgreSQL for reliable data storage
+
+API routes in Next.js (App Router)
+
+TanStack Query for efficient data fetching and caching
+
+🧑‍💻 Developer Tools & Workflow
+
+PR review optimization with CodeRabbit
+
+CI/CD ready Git & GitHub workflow (branches, PRs, merges)
+
+🧰 Tech Stack
+Category	Tools / Frameworks
+Frontend	Next.js 14, TypeScript, Tailwind CSS, Shadcn/UI
+Backend	Next.js API Routes, PostgreSQL
+Auth	Clerk
+AI Agent	Vapi
+Email	Resend
+Data Fetching	TanStack Query
+Dev Tools	CodeRabbit, Git, GitHub
+Deployment	Vercel (recommended)
+🪄 Highlights
+
+Modern responsive UI
+
+Secure authentication & email verification
+
+Fully automated booking system
+
+AI-powered voice assistant
+
+Smart subscriptions & invoices
+
+Admin dashboard for management
+
+End-to-end TypeScript support
