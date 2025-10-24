@@ -16,6 +16,12 @@ Secure login via Google, GitHub, or Email/Password
 
 Email verification with 6-digit verification code
 
+
+## Dentwise Project Screenshot
+
+![Dentwise](assets/Dentwise.png)
+
+
 📅 Appointment Booking System
 
 3-step flow:
